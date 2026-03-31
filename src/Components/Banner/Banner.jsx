@@ -28,8 +28,8 @@ const Banner = () => {
 
                   <div class=" flex flex-col gap-2 sm:flex-row  ">
 
-                    <button class="btn   bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold rounded-full">Exlpore Products</button>
-                    <button class="btn btn-primary font-bold btn-outline rounded-full"><img src="" alt="" /><img src={playBtn} alt="" />Watch Demo</button>
+                    <button class="btn   bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold rounded-full  transition-all duration-200 ease-out transform hover:scale-108 hover:-translate-x-0.5 hover:shadow-sm  hover:bg-none  hover:bg-primary">Exlpore Products</button>
+                    <button class="btn btn-primary font-bold btn-outline rounded-full  transition-all duration-200 ease-out transform hover:scale-108 hover:-translate-x-0.5 hover:shadow-sm     "><img src="" alt="" /><img src={playBtn} alt="" />Watch Demo</button>
                   </div>
 
                        

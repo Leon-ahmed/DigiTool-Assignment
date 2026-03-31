@@ -7,7 +7,7 @@ const ToolSection = () => {
             <p class="text-[#627382]">Choose from our curated collection of premium digital products designed
 to boost your productivity and creativity.</p>
             <div className="inline-flex items-center rounded-full border border-[#e5e6ec] bg-[#f7f8fb] p-1 shadow-[0_10px_25px_rgba(0,0,0,0.05)]">
-              <button class="btn rounded-full">Products</button>
+              <button class="btn  bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full">Products</button>
               <button class="btn  rounded-full">Carts</button>
             </div>
         </div>

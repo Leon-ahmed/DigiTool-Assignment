@@ -36,7 +36,7 @@ const Navbar = () => {
   </div>
   <div class="navbar-end space-x-4  flex flex-col-reverse gap-2  mt-4  md:flex-row md:mt-0 ">
     <p class="flex  items-center  gap-2  font-semibold"><CiShoppingCart /><a>Login</a></p>
-    <a class="btn rounded-full text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-semibold ">Get Started</a>
+    <a class="btn rounded-full text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-semibold  transition-all duration-200 ease-out transform hover:scale-108 hover:-translate-x-0.5 hover:shadow-sm  hover:bg-none hover:bg-primary ">Get Started</a>
   </div>
 </div>
 <hr class="border-b border-gray-100 " />

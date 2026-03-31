@@ -12,7 +12,7 @@
       "API access",
       "Custom workflows"
     ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/190/190411.png"
+    "icon": "https://cdn-icons-png.flaticon.com/512/3062/3062634.png"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "ATS optimization",
       "Export to PDF"
     ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135768.png"
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135692.png"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
       "Post scheduler",
       "Analytics dashboard"
     ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/733/733547.png"
+    "icon": "https://cdn-icons-png.flaticon.com/512/733/733579.png"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
       "Pitch deck builder",
       "Financial planner"
     ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828919.png"
+    "icon": "https://cdn-icons-png.flaticon.com/512/1055/1055672.png"
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
       "Icons library",
       "Figma templates"
     ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/1827/1827933.png"
+    "icon": "https://cdn-icons-png.flaticon.com/512/1827/1827936.png"
   },
   {
     "id": 6,
@@ -87,12 +87,12 @@
       "Customer insights",
       "Marketing tools"
     ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/1170/1170678.png"
+    "icon": "https://cdn-icons-png.flaticon.com/512/1170/1170627.png"
   },
   {
     "id": 7,
     "name": "Developer Toolkit",
-    "description": "Essential tools and APIs for developers.",
+    "description": "Essential tools and APIs for developers. Start Yours journey",
     "price": 29,
     "period": "monthly",
     "tag": "popular",
@@ -102,7 +102,7 @@
       "API integrations",
       "Debug tools"
     ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/2721/2721620.png"
+    "icon": "https://cdn-icons-png.flaticon.com/512/1006/1006363.png"
   },
   {
     "id": 8,
@@ -117,7 +117,7 @@
       "Thumbnail maker",
       "Script ideas"
     ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/2920/2920244.png"
+    "icon": "https://cdn-icons-png.flaticon.com/512/3659/3659899.png"
   },
   {
     "id": 9,
@@ -132,7 +132,7 @@
       "Certificates",
       "Offline access"
     ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135755.png"
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
   },
   {
     "id": 10,
@@ -147,6 +147,6 @@
       "SEO tools",
       "Ad management"
     ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
+    "icon": "https://cdn-icons-png.flaticon.com/512/1055/1055683.png"
   }
 ]
