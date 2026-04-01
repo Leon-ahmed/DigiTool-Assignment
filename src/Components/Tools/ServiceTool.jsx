@@ -1,7 +1,27 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { toast } from 'react-toastify';
 import { FaCheck } from "react-icons/fa6";
-const ServiceTool = ({Tool}) => {
-    console.log(Tool)
+const ServiceTool = ({ Tool, onAddToCart }) => {
+    const [addedFeedback, setAddedFeedback] = useState(false);
+
+    useEffect(() => {
+        let timeoutId;
+
+        if (addedFeedback) {
+            timeoutId = setTimeout(() => {
+                setAddedFeedback(false);
+            }, 2000);
+        }
+
+        return () => clearTimeout(timeoutId);
+    }, [addedFeedback]);
+
+    const handleBuyNow = () => {
+        onAddToCart(Tool);
+        toast('Product Added to cart!');
+        setAddedFeedback(true);
+    };
+
     return (
         <div class="mt-10">
                 <div class="max-w-80 sm:max-w-85 md:max-w-90 px-6 pb-6  shadow-sm  border border-gray-100 rounded-xl   ">
@@ -34,7 +54,16 @@ const ServiceTool = ({Tool}) => {
 
          </div>
 
-         <button class="btn w-full  mt-4 rounded-full text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-semibold  transition-all duration-200 ease-out transform hover:scale-108 hover:-translate-x-0.5 hover:shadow-sm  hover:bg-none hover:bg-primary" >Buy Now</button>
+            <button
+                onClick={handleBuyNow}
+                className={`btn w-full mt-4 rounded-full font-semibold transition-all duration-200 ease-out transform hover:scale-108 hover:-translate-x-0.5 hover:shadow-sm ${
+                     addedFeedback
+                          ? 'bg-accent text-white hover:bg-accent'
+                          : 'text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:bg-none hover:bg-primary'
+                }`}
+            >
+                {addedFeedback ? 'Added to Cart' : 'Buy Now'}
+            </button>
 
 
 
