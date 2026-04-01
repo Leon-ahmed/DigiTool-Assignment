@@ -1,16 +1,44 @@
-# React + Vite
+# DigiTools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DigiTools is a SPA for premium digital products. It includes product cards, a cart toggle, add to cart actions, toast notifications, pricing, and a custom footer.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Clean one-page layout with Navbar, Banner, Guide, Pricing, and Footer
+- Product and Cart toggle section
+- Buy Now button updates to Added to Cart for a short time
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Tailwind CSS
+- DaisyUI
+- React Icons
+- React Toastify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+- src/Components/Banner
+- src/Components/Navbar
+- src/Components/Tools
+- src/Components/Guide
+- src/Components/Pricing
+- src/Components/Footer
+- public/data.json
+
+## Getting Started
+
+1. Install dependencies
+npm install
+
+2. Run development server
+npm run dev
+
+3. Build for production
+npm run build
+
+
+
+
